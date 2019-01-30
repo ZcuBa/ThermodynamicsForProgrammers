@@ -1,0 +1,137 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Fluid Properties
+\end_layout
+
+\begin_layout Standard
+Fluids are a class of materials which are usefull for transferring heat
+ energy in a heat pump.
+ In principle there is nothing special about fluids, as nearly all materials
+ will turn into a solid if it is cold enough, and melt to a liquid, and
+ then vapourize to a gas if heated enough.
+ However we usually want to utillize a heat pump within a narrow range of
+ temperatures, which are within a few hundred degrees of waters freezing
+ point.
+ We also want a very safe system, so we do not want extreme pressures in
+ our machines.
+ A small set of materials allows us to use them for the heat moving material
+ as we need the material to be a gas when we compress it, and a liquid when
+ heat transfer has been done on the hot side of the process.
+ We call materials that fall in this catergory of usefullness for fluids.
+ Some are pure, and naturally occuring fluids like Ammonia or Propane, and
+ others are mixtures, where the mixture is made to achieve a specific set
+ of properties.
+\end_layout
+
+\begin_layout Subsection
+Enthalpy
+\end_layout
+
+\begin_layout Standard
+Enthalpy
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Enthalpy
+\end_layout
+
+\end_inset
+
+ is an extremely important property to understand, if you are to discuss
+ thermodynamics with engineers.
+\end_layout
+
+\begin_layout Standard
+Enthalpy is formally defined as the internal energy of a system added to
+ the product of the pressure and the volume.
+\end_layout
+
+\begin_layout Standard
+Enthalpy comprises a system's internal energy, which is the energy required
+ to create the system, plus the amount of work required to make room for
+ it by displacing its environment and establishing its volume and pressure
+\end_layout
+
+\begin_layout Standard
+Enthalpy is most typically denoted with an H
+\end_layout
+
+\end_body
+\end_document

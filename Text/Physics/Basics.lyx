@@ -1,0 +1,220 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+The Basics
+\end_layout
+
+\begin_layout Standard
+Before we go any further we simply have to touch upon some very basic definition
+s from physics, otherwise the rest of the doument will read as mumbo jumbo.
+\end_layout
+
+\begin_layout Standard
+This section is for clarifying what we eman when we throw physics expressions
+ around, like energy, density, or even temperature.
+\end_layout
+
+\begin_layout Subsection
+Energy
+\end_layout
+
+\begin_layout Standard
+Energy
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Energy
+\end_layout
+
+\end_inset
+
+ is an abstract quantity.
+ Most of us think of lightning or heat when we say energy, but energy is
+ also the term we use to describe what is transferred from an actuator to
+ an object when performing work on it.
+\end_layout
+
+\begin_layout Standard
+As such the defintion for the SI unit for energy (Joule) is the amount of
+ energy transferred to an object by the work of moving it a distance of
+ 1 metre against a force of 1 Newton.
+\end_layout
+
+\begin_layout Standard
+Another way of looking at understanding what energy is via the often more
+ well known physical property we call Power.
+ It does not matter if the Power is the electrical, mehcanical, or chemical
+ Power.
+ All the Power expressions are defined as the flowrate of energy.
+ The Power in Watts is defined as the energy which is currently flowing
+ through some surface, measured in Joules per Second.
+\end_layout
+
+\begin_layout Standard
+One thing that must be understood about energy is that it is always conserved.
+ Or in laymans terms, this means that energy can not be created, and energy
+ never disappears.
+\end_layout
+
+\begin_layout Standard
+In Physics we know from Einstein that energy can be expressed in terms of
+ mass and a cosmic constant, which allows us to convert energy into mass,
+ and back.
+ The circumstances required for this conversion are not present in practical
+ thermodynamic systems, hence we do not need to model that complexity, in
+ thermodynamic models, energy is a quantity which cannot be converted into
+ mass, or back.
+\end_layout
+
+\begin_layout Subsection
+Mass
+\end_layout
+
+\begin_layout Standard
+Mass is an interesting property within physics.
+ As we use the SI units of gram or kilograms for masses, most of us believes
+ that we understand what mass is.
+ However mass is not the same as weight.
+ Weight is the downward force experienced by something that prevents the
+ mass from falling, say a scale or a table.
+ This means that the weight of something is defined not only by an objects
+ mass, but also by the gravitational pull where the object is located.
+ A real example which is easy to understand is that astronauts weights less
+ while they are on the moon, and experience weightlessness while in space,
+ but weights more or less the same as you do when they are on the earth
+ surface.
+ The astronauts mass remains the same though.
+\end_layout
+
+\begin_layout Standard
+The proof of this is that the force required to spinning an astronaut is
+ the same on the earths surface, as it is in weightlessness.
+\end_layout
+
+\begin_layout Standard
+In thermodynamics we say that mass is conserved, we do not use our systems
+ in the cases where mass could turn into energy, so this means that no mass
+ ever disappears or appears within the system.
+\end_layout
+
+\begin_layout Subsection
+Power
+\end_layout
+
+\begin_layout Standard
+Power is defined as the flowrate of energy, but what does that mean?
+\end_layout
+
+\begin_layout Standard
+Well to get a feel of what Power is, we will mention a fewe examples:
+\end_layout
+
+\begin_layout Itemize
+In mechanics we can express power as the energy flow required to maintain
+ the force that produces a motion.
+ In other words, if we know the velocity or speed of something, and know
+ how much force we are applying to maintain that speed, we can determine
+ the power as speed multiplied with the force that maintains that speed.
+\end_layout
+
+\begin_layout Itemize
+In Electrical Systems, we can express power as the energy flow required
+ to maintain an electrical fields potential.
+ In other words the potential fields strength is measured in Volts, and
+ an electron flow (called the current) is basically an energy flow measured
+ in Amperes, so the power can be found as the Current required to maintain
+ some voltage between two points, multiplied with the voltage difference
+ beteeen said points.
+\end_layout
+
+\begin_layout Itemize
+Heat is also a Power equivalent term, as it is also a measure of energy
+ flowrate, and as such we can determine how much heat is transferred, into
+ or away from some material.
+ An object that radiates heat, and recieves no power, will slowly cool down
+ till it reaches the same temperature as the sorroundings.
+ Objects that recieve power from something, like a pan on a stove that recieves
+ electrical power, will radiate the recieved energy as heat.
+ If the rate of recieved power, and radiated heat are exactly the same we
+ say that the object has a steady state, as we can predict that the current
+ temperature and pressure is maintained forever.
+\end_layout
+
+\end_body
+\end_document
